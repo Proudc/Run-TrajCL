@@ -1,0 +1,5 @@
+# pretrain
+python train.py --dataset porto
+
+# finetune
+python train_trajsimi.py --dataset porto --trajsimi_measure_fn_name hausdorff
